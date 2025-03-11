@@ -36,6 +36,7 @@ New-MgUser `
 
 ```powershell
 Get-MgUser
+```
 
 # Create Group
 
