@@ -36,3 +36,8 @@ New-MgUser `
 
 ```powershell
 Get-MgUser
+
+# Create Group
+
+```powershell
+New-MgGroup -DisplayName "Example_Group" -Description "Example Group Info" -MailEnabled:$false -Mailnickname "Example_Group" -SecurityEnabled
